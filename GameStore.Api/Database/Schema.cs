@@ -1,6 +1,6 @@
 namespace GameStore.Api.Database;
 
-public class Schema
+public static class Schema
 {
-    
+    public const string Application = "gamestore";
 }
