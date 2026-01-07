@@ -7,7 +7,9 @@ Quick facts
 - Local URLs (from `GameStore.Api/Properties/launchSettings.json`):
   - HTTP: http://localhost:5000
   - HTTPS: https://localhost:5001
-  - Swagger UI (if enabled): http://localhost:5000/swagger or https://localhost:5001/swagger
+  - Swagger UI : http://localhost:5000/swagger or https://localhost:5001/swagger
+  - Scalar UI : http://localhost:5000/scalar or https://localhost:5001/scalar
+  - Postman: always (hehe)
 
 Prerequisites
 
@@ -71,5 +73,3 @@ Troubleshooting
 - Migrations fail: confirm the connection string and that the database server is reachable.
 - Keycloak doesn't start: ensure Docker is running and check `docker-compose logs keycloak`.
 - Swagger not available: verify Swagger is enabled and use the correct URL/port from `launchSettings.json`.
-
-Want this fully containerized (DB + Keycloak)? I can add a database service to `docker-compose` and a single command to run everything.
