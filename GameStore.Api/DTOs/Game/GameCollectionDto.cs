@@ -1,6 +1,6 @@
 namespace GameStore.Api.DTOs.Game;
 
-public class GameCollectionDto
+public sealed record GameCollectionDto
 {
-    
+    public List<GameDto>? Items { get; init; }
 }
